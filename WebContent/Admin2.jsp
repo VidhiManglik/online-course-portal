@@ -8,7 +8,7 @@ function validationTxt()
 	
 		if ((form1.course.value == "") || (form1.course.value == null)||(!isNaN(form1.course.value)))
 		{
-				alert("Please Enter Course in Words")
+				alert("Please Enter Course in Word")
 				form1.course.focus()
 				return false
 		}
